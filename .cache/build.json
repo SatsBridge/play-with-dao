@@ -1,0 +1,179 @@
+{
+    "contracts/interfaces/IStakingAccount.tsol": {
+        "modificationTime": 1725821848079
+    },
+    "contracts/interfaces/IStakingPool.tsol": {
+        "modificationTime": 1725821848079
+    },
+    "contracts/interfaces/IProposer.tsol": {
+        "modificationTime": 1725821848079
+    },
+    "contracts/interfaces/IUpgradable.tsol": {
+        "modificationTime": 1725821848079
+    },
+    "contracts/interfaces/IUpgradableByRequest.tsol": {
+        "modificationTime": 1725821848079
+    },
+    "contracts/libraries/DaoErrors.tsol": {
+        "modificationTime": 1725821848079
+    },
+    "contracts/interfaces/IVoter.tsol": {
+        "modificationTime": 1725821848079
+    },
+    "contracts/libraries/PlatformTypes.tsol": {
+        "modificationTime": 1725821848080
+    },
+    "contracts/libraries/Gas.tsol": {
+        "modificationTime": 1725821848079
+    },
+    "contracts/structures/PlatformTypes.tsol": {
+        "modificationTime": 1725821848080
+    },
+    "contracts/structures/ProposalConfigurationStructure.tsol": {
+        "modificationTime": 1725821848080
+    },
+    "contracts/structures/ActionStructure.tsol": {
+        "modificationTime": 1725821848079
+    },
+    "contracts/structures/ProposalSates.tsol": {
+        "modificationTime": 1725821848080
+    },
+    "contracts/test/TestUpgrade.tsol": {
+        "modificationTime": 1725821848080
+    },
+    "contracts/utils/Delegate.tsol": {
+        "modificationTime": 1725821848080
+    },
+    "contracts/utils/DummyRound.tsol": {
+        "modificationTime": 1725821848081
+    },
+    "contracts/utils/ErrorCodes.tsol": {
+        "modificationTime": 1725821848081
+    },
+    "contracts/utils/TransferUtils.tsol": {
+        "modificationTime": 1725821848081
+    },
+    "contracts/utils/cell-encoder/StakingCellEncoder.tsol": {
+        "modificationTime": 1725821848081
+    },
+    "contracts/interfaces/IDaoRoot.tsol": {
+        "modificationTime": 1725821848079
+    },
+    "contracts/interfaces/IProposal.tsol": {
+        "modificationTime": 1733248577507
+    },
+    "contracts/interfaces/IUserData.tsol": {
+        "modificationTime": 1725821848080
+    },
+    "contracts/test/TestTarget.tsol": {
+        "modificationTime": 1733179315536
+    },
+    "contracts/utils/TestWallet.tsol": {
+        "modificationTime": 1725821848081
+    },
+    "contracts/utils/cell-encoder/DaoCellEncoder.tsol": {
+        "modificationTime": 1733178937093
+    },
+    "node_modules/@broxus/tip3/contracts/TokenRoot.tsol": {
+        "modificationTime": 1733177389007
+    },
+    "node_modules/@broxus/tip3/contracts/TokenRootUpgradeable.tsol": {
+        "modificationTime": 1733177389010
+    },
+    "node_modules/@broxus/tip3/contracts/TokenWallet.tsol": {
+        "modificationTime": 1733177389011
+    },
+    "node_modules/@broxus/tip3/contracts/TokenWalletUpgradeable.tsol": {
+        "modificationTime": 1733177389016
+    },
+    "node_modules/@broxus/tip3/contracts/TokenWalletPlatform.tsol": {
+        "modificationTime": 1733177389015
+    },
+    "contracts/DaoRoot.tsol": {
+        "modificationTime": 1733178667049
+    },
+    "contracts/Proposal.tsol": {
+        "modificationTime": 1733178746753
+    },
+    "contracts/utils/Platform.tsol": {
+        "modificationTime": 1725821848081
+    },
+    "contracts/utils/cell-encoder/CellEncoderStandalone.tsol": {
+        "modificationTime": 1733174047204
+    },
+    "contracts/utils/Wallet.tsol": {
+        "modificationTime": 1725821848081
+    },
+    "node_modules/@broxus/tip3/contracts/abstract/TokenRootTransferableOwnershipBase.tsol": {
+        "modificationTime": 1733177389009
+    },
+    "node_modules/@broxus/tip3/contracts/abstract/TokenRootDisableableMintBase.tsol": {
+        "modificationTime": 1733177389009
+    },
+    "node_modules/@broxus/tip3/contracts/abstract/TokenRootBurnableByRootBase.tsol": {
+        "modificationTime": 1733177389008
+    },
+    "node_modules/@broxus/tip3/contracts/abstract/TokenRootBurnPausableBase.tsol": {
+        "modificationTime": 1733177389008
+    },
+    "node_modules/@broxus/tip3/contracts/libraries/TokenErrors.tsol": {
+        "modificationTime": 1733177389006
+    },
+    "node_modules/@broxus/tip3/contracts/libraries/TokenMsgFlag.tsol": {
+        "modificationTime": 1733177389007
+    },
+    "node_modules/@broxus/tip3/contracts/interfaces/ITokenRootUpgradeable.tsol": {
+        "modificationTime": 1733177389002
+    },
+    "node_modules/@broxus/tip3/contracts/interfaces/ITokenWalletUpgradeable.tsol": {
+        "modificationTime": 1733177389002
+    },
+    "node_modules/@broxus/tip3/contracts/interfaces/IVersioned.tsol": {
+        "modificationTime": 1733177389004
+    },
+    "node_modules/@broxus/tip3/contracts/libraries/TokenGas.tsol": {
+        "modificationTime": 1733177389007
+    },
+    "node_modules/@broxus/tip3/contracts/abstract/TokenWalletBurnableByRootBase.tsol": {
+        "modificationTime": 1733177389014
+    },
+    "node_modules/@broxus/tip3/contracts/abstract/TokenWalletBurnableBase.tsol": {
+        "modificationTime": 1733177389013
+    },
+    "node_modules/@broxus/tip3/contracts/abstract/TokenWalletDestroyableBase.tsol": {
+        "modificationTime": 1733177389014
+    },
+    "/app/node_modules/@broxus/contracts/contracts/libraries/MsgFlag.tsol": {
+        "modificationTime": 1733177388552
+    },
+    "/app/node_modules/@broxus/contracts/contracts/platform/Platform.tsol": {
+        "modificationTime": 1733177388554
+    },
+    "/app/node_modules/@broxus/contracts/contracts/utils/CheckPubKey.tsol": {
+        "modificationTime": 1733177388544
+    },
+    "/app/node_modules/@broxus/contracts/contracts/platform/PlatformBase.tsol": {
+        "modificationTime": 1733177388555
+    },
+    "/app/node_modules/@broxus/contracts/contracts/utils/RandomNonce.tsol": {
+        "modificationTime": 1733177388561
+    },
+    "/app/node_modules/@broxus/contracts/contracts/wallets/Account.tsol": {
+        "modificationTime": 1733177388542
+    },
+    "compilerSettings": {
+        "externalContracts": {
+            "node_modules/@broxus/tip3/contracts": [
+                "Account",
+                "TokenRoot",
+                "TokenWallet",
+                "TokenRootUpgradeable",
+                "TokenWalletUpgradeable",
+                "TokenWalletPlatform"
+            ]
+        },
+        "compilerPath": "/root/.cache/locklift-nodejs/compiler/0_62_0/solc_0_62_0_linux",
+        "linkerPath": "/root/.cache/locklift-nodejs/linker/0_15_48/tvm_linker_0_15_48_linux",
+        "linkerLibPath": "/root/.cache/locklift-nodejs/lib/0_62_0/stdlib_sol_0_62_0.tvm"
+    }
+}
