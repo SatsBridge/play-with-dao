@@ -5,8 +5,7 @@ import "../../structures/ActionStructure.tsol";
 contract DaoCellEncoder {
     function encodeDaoEthereumActionData(
         int8 gasBackWid,
-        uint256 gasBackAddress,
-        uint32 chainId
+        uint256 gasBackAddress
     ) public pure returns(
         TvmCell data
     ) {
@@ -19,13 +18,11 @@ contract DaoCellEncoder {
         TvmCell data
     ) public pure returns(
         int8 gasBackWid,
-        uint256 gasBackAddress,
-        uint32 chainId
+        uint256 gasBackAddress
     ) {
         (
             gasBackWid,
-            gasBackAddress,
-            chainId
+            gasBackAddress
         ) = data.toSlice().decode(int8, uint256, uint32);
     }
 }

@@ -210,9 +210,9 @@ contract DaoRoot is DaoCellEncoder, IDaoRoot, IUpgradable, Delegate, CheckPubKey
     }
 
     function executeBtcActions(address proposer, BtcAction[] actions) private view inline {
-        for ((BtcAction action) : actions) {
-            uint32 chainId = action.chainId;
-        }
+        //for ((BtcAction action) : actions) {
+        //
+        //}
     }
 
     function calcTvmActionsValue(TvmAction[] actions) public pure returns (uint128 totalValue) {
@@ -226,15 +226,15 @@ contract DaoRoot is DaoCellEncoder, IDaoRoot, IUpgradable, Delegate, CheckPubKey
         BtcAction[] actions
     ) public view returns (uint128 totalValue) {
         totalValue = 0;
-        mapping(uint32 => bool) chains;
-        for (uint i = 0; i < actions.length; i++) {
-            uint32 chainId = actions[i].chainId;
-            if(!chains.exists(chainId)){
-                totalValue += deployEventValue;
-                chains[chainId] = true;
-            }
-            totalValue += Gas.EXECUTE_ETH_ACTION_VALUE;
-        }
+        //mapping(uint32 => bool) chains;
+        //for (uint i = 0; i < actions.length; i++) {
+        //   uint32 chainId = actions[i].chainId;
+        //  if(!chains.exists(chainId)){
+        //      totalValue += deployEventValue;
+        //      chains[chainId] = true;
+        //  }
+        //  totalValue += Gas.EXECUTE_ETH_ACTION_VALUE;
+        //}
     }
 
     function buildProposalStateInit(uint32 proposalId) private view returns (TvmCell) {

@@ -84,7 +84,7 @@
 			"inputs": [
 				{"name":"answerId","type":"uint32"},
 				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tvmActions","type":"tuple[]"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
 				{"name":"description","type":"string"}
 			],
 			"outputs": [
@@ -106,7 +106,7 @@
 				{"name":"proposalId","type":"uint32"},
 				{"name":"proposer","type":"address"},
 				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tvmActions","type":"tuple[]"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"}
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"}
 			],
 			"outputs": [
 			]
@@ -123,7 +123,7 @@
 		{
 			"name": "calcBtcActionsValue",
 			"inputs": [
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"psbt","type":"bytes"}],"name":"actions","type":"tuple[]"}
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"psbt","type":"bytes"}],"name":"actions","type":"tuple[]"}
 			],
 			"outputs": [
 				{"name":"totalValue","type":"uint128"}
@@ -383,7 +383,7 @@
 				{"name":"proposalId","type":"uint32"},
 				{"name":"proposer","type":"address"},
 				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tvmActions","type":"tuple[]"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
 				{"name":"description","type":"string"}
 			],
 			"outputs": [

@@ -36,7 +36,7 @@
 			],
 			"outputs": [
 				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"value0","type":"tuple[]"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"psbt","type":"bytes"}],"name":"value1","type":"tuple[]"}
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"psbt","type":"bytes"}],"name":"value1","type":"tuple[]"}
 			]
 		},
 		{
@@ -231,7 +231,7 @@
 			"inputs": [
 			],
 			"outputs": [
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"}
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"}
 			]
 		},
 		{
@@ -371,7 +371,7 @@
 		{"name":"proposer","type":"address"},
 		{"name":"description","type":"string"},
 		{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tvmActions","type":"tuple[]"},
-		{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
+		{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
 		{"name":"proposalVersion","type":"uint16"},
 		{"components":[{"name":"votingDelay","type":"uint32"},{"name":"votingPeriod","type":"uint32"},{"name":"quorumVotes","type":"uint128"},{"name":"timeLock","type":"uint32"},{"name":"threshold","type":"uint128"},{"name":"gracePeriod","type":"uint32"}],"name":"config","type":"tuple"},
 		{"name":"startTime","type":"uint32"},

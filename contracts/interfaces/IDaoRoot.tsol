@@ -8,8 +8,7 @@ import "../structures/PlatformTypes.tsol";
 interface IDaoRoot is ActionStructure, ProposalConfigurationStructure, ProposalStates, DaoPlatformTypes {
     event BtcActions(
         int8 gasBackWid,
-        uint256 gasBackAddress,
-        uint32 chainId
+        uint256 gasBackAddress
     );
     event ProposalCreated(
         uint32 proposalId,

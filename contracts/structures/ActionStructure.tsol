@@ -9,9 +9,7 @@ interface ActionStructure {
 
     struct BtcAction {
         uint value;
-        uint32 chainId;
         uint160 target;
-        string signature;
         bytes psbt;
     }
 }
