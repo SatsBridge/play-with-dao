@@ -332,7 +332,7 @@
 //       let newParam = 16711680;
 //       let tonActions: any[] = [];
 
-//       let ethActions = [
+//       let btcActions = [
 //         {
 //           value: 1,
 //           chainId: 2,
@@ -363,7 +363,7 @@
 //             .propose({
 //               answerId: 0,
 //               tonActions,
-//               ethActions,
+//               btcActions,
 //               description,
 //             })
 //             .send({
@@ -389,7 +389,7 @@
 //           `Deployed Proposal #${proposalId}: ${expectedProposalAddress}`
 //         );
 //         logger.log(`TonActions: \n${JSON.stringify(tonActions, null, 4)}`);
-//         logger.log(`EthActions: \n${JSON.stringify(ethActions, null, 4)}`);
+//         logger.log(`BtcActions: \n${JSON.stringify(btcActions, null, 4)}`);
 //       });
 //       it("Check is staking is Active", async function () {
 //         expect(
@@ -492,34 +492,34 @@
 //             );
 //           }
 //         });
-//         it("Check EthActions", async function () {
+//         it("Check BtcActions", async function () {
 //           const actualEthActions = await proposal.methods
-//             .ethActions()
+//             .btcActions()
 //             .call()
-//             .then((t) => t.ethActions);
+//             .then((t) => t.btcActions);
 //           expect(actualEthActions.length).to.equal(
-//             ethActions.length,
-//             "Wrong EthActions amount"
+//             btcActions.length,
+//             "Wrong BtcActions amount"
 //           );
 //           for (const [i, actualEthAction] of actualEthActions.entries()) {
 //             expect(new BigNumber(actualEthAction.value).toString()).to.equal(
-//               ethActions[i].value.toString(),
-//               "Wrong EthActions value"
+//               btcActions[i].value.toString(),
+//               "Wrong BtcActions value"
 //             );
 //             expect(
 //               "0x" + new BigNumber(actualEthAction.target).toString(16)
-//             ).to.equal(ethActions[i].target, "Wrong EthActions target");
+//             ).to.equal(btcActions[i].target, "Wrong BtcActions target");
 //             expect(actualEthAction.chainId.toString()).to.equal(
-//               ethActions[i].chainId.toString(),
-//               "Wrong EthActions chainId"
+//               btcActions[i].chainId.toString(),
+//               "Wrong BtcActions chainId"
 //             );
 //             expect(actualEthAction.signature).to.equal(
-//               ethActions[i].signature,
-//               "Wrong EthActions signature"
+//               btcActions[i].signature,
+//               "Wrong BtcActions signature"
 //             );
 //             expect(actualEthAction.callData).to.equal(
-//               ethActions[i].callData,
-//               "Wrong EthActions callData"
+//               btcActions[i].callData,
+//               "Wrong BtcActions callData"
 //             );
 //           }
 //         });

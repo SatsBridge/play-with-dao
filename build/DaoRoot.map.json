@@ -4888,8 +4888,8 @@
     },
     "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
       "0": {
-        "filename": "DaoRoot.code",
-        "line": 3585
+        "filename": "../contracts/DaoRoot.tsol",
+        "line": 345
       }
     },
     "629d78ed6716665f76001e3259faf2726e3fb67ddae41e6acc34aa6cbdc0c5be": {

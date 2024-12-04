@@ -7,7 +7,7 @@ interface ActionStructure {
         TvmCell payload;
     }
 
-    struct EthAction {
+    struct BtcAction {
         uint value;
         uint32 chainId;
         uint160 target;

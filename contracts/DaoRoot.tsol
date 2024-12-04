@@ -4,7 +4,7 @@ import "Proposal.tsol";
 
 import {
     PlatformTypes as StakingPlatformTypes
-} from "./libraries/PlatformTypes.tsol";
+} from "./structures/PlatformTypes.tsol";
 
 import "./libraries/Gas.tsol";
 import "./libraries/DaoErrors.tsol";
@@ -127,15 +127,15 @@ contract DaoRoot is DaoCellEncoder, IDaoRoot, IUpgradable, Delegate, CheckPubKey
     function propose(
         uint32 answerId,
         TonAction[] tonActions,
-        EthAction[] ethActions,
+        BtcAction[] btcActions,
         string description
     ) override public {
-        uint actionsAmount = tonActions.length + ethActions.length;
+        uint actionsAmount = tonActions.length + btcActions.length;
         require(actionsAmount != 0, DaoErrors.ACTIONS_MUST_BE_PROVIDED);
         require(actionsAmount <= proposalMaxOperations, DaoErrors.TOO_MANY_ACTIONS);
         require(bytes(description).length <= proposalMaxDescriptionLen, DaoErrors.DESCRIPTION_TOO_LONG);
         uint128 tonTotalGasValue = calcTonActionsValue(tonActions);
-        uint128 ethTotalGasValue = calcEthActionsValue(ethActions);
+        uint128 ethTotalGasValue = calcEthActionsValue(btcActions);
         require(
             msg.value >= ethTotalGasValue + tonTotalGasValue + Gas.DEPLOY_PROPOSAL_VALUE,
             DaoErrors.MSG_VALUE_TOO_LOW_TO_CREATE_PROPOSAL
@@ -143,7 +143,7 @@ contract DaoRoot is DaoCellEncoder, IDaoRoot, IUpgradable, Delegate, CheckPubKey
         TvmBuilder proposalData;
         proposalData.store(answerId);
         proposalData.store(tonActions);
-        proposalData.store(ethActions);
+        proposalData.store(btcActions);
         proposalData.store(description);
         IStakingAccount(expectedStakingAccountAddress(msg.sender)).propose{
             value: 0,
@@ -158,11 +158,11 @@ contract DaoRoot is DaoCellEncoder, IDaoRoot, IUpgradable, Delegate, CheckPubKey
     ) override public onlyStakingAccount(accountOwner){
         tvm.rawReserve(address(this).balance - msg.value, 2);
 
-        (uint32 answerId, TonAction[] tonActions, EthAction[] ethActions, string description)
+        (uint32 answerId, TonAction[] tonActions, BtcAction[] btcActions, string description)
             = proposalData.toSlice().decodeFunctionParams(propose);
 
         proposalCount++;
-        emit ProposalCreated(proposalCount, accountOwner, tonActions, ethActions, description);
+        emit ProposalCreated(proposalCount, accountOwner, tonActions, btcActions, description);
         IStakingAccount(msg.sender).onProposalDeployed{
             value: Gas.PROPOSAL_DEPLOYED_CALLBACK_VALUE,
             flag: MsgFlag.SENDER_PAYS_FEES,
@@ -171,7 +171,7 @@ contract DaoRoot is DaoCellEncoder, IDaoRoot, IUpgradable, Delegate, CheckPubKey
         TvmCell params = abi.encode(
             stakingRoot, accountOwner,
             description, tonActions,
-            ethActions, proposalConfiguration,
+            btcActions, proposalConfiguration,
             proposalVersion
         );
         new Platform{
@@ -185,7 +185,7 @@ contract DaoRoot is DaoCellEncoder, IDaoRoot, IUpgradable, Delegate, CheckPubKey
         uint32 proposalId,
         address proposer,
         TonAction[] tonActions,
-        EthAction[] ethActions
+        BtcAction[] btcActions
     ) override public onlyProposal(proposalId) {
         tvm.rawReserve(address(this).balance - msg.value, 2);
         if (tonActions.length > 0) {
@@ -194,8 +194,8 @@ contract DaoRoot is DaoCellEncoder, IDaoRoot, IUpgradable, Delegate, CheckPubKey
                 executeTonAction(tonActions[i]);
             }
         }
-        if (ethActions.length > 0) {
-            executeEthActions(proposer, ethActions);
+        if (btcActions.length > 0) {
+            executeEthActions(proposer, btcActions);
         }
         IProposal(msg.sender).onActionsExecuted{value: 0, flag: MsgFlag.ALL_NOT_RESERVED}();
     }
@@ -209,9 +209,9 @@ contract DaoRoot is DaoCellEncoder, IDaoRoot, IUpgradable, Delegate, CheckPubKey
         });
     }
 
-    function executeEthActions(address proposer, EthAction[] actions) private view inline {
+    function executeEthActions(address proposer, BtcAction[] actions) private view inline {
         mapping(uint32 => EthActionStripped[]) chainActions;
-        for ((EthAction action) : actions) {
+        for ((BtcAction action) : actions) {
             uint32 chainId = action.chainId;
             EthActionStripped actionStripped = EthActionStripped(
                 action.value,
@@ -226,8 +226,8 @@ contract DaoRoot is DaoCellEncoder, IDaoRoot, IUpgradable, Delegate, CheckPubKey
             }
         }
         /*
-        for ((uint32 chainId, EthActionStripped[] ethActions) : chainActions) {
-            TvmCell eventData = encodeDaoEthereumActionData(proposer.wid, proposer.value, chainId, ethActions);
+        for ((uint32 chainId, EthActionStripped[] btcActions) : chainActions) {
+            TvmCell eventData = encodeDaoEthereumActionData(proposer.wid, proposer.value, chainId, btcActions);
             IEverscaleEthereumEvent.EverscaleEthereumEventVoteData eventVoteData = IEverscaleEthereumEvent.EverscaleEthereumEventVoteData(tx.timestamp, now, eventData);
             IEverscaleEthereumEventConfiguration(ethereumActionEventConfiguration).deployEvent{
                 value: deployEventValue,
@@ -246,7 +246,7 @@ contract DaoRoot is DaoCellEncoder, IDaoRoot, IUpgradable, Delegate, CheckPubKey
     }
 
     function calcEthActionsValue(
-        EthAction[] actions
+        BtcAction[] actions
     ) public view returns (uint128 totalValue) {
         totalValue = 0;
         mapping(uint32 => bool) chains;

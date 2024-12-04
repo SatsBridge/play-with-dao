@@ -12,7 +12,7 @@ import "./structures/PlatformTypes.tsol";
 import "./interfaces/IUserData.tsol";
 import {
     PlatformTypes as StakingPlatformTypes
-} from "./libraries/PlatformTypes.tsol";
+} from "./structures/PlatformTypes.tsol";
 
 import "@broxus/contracts/contracts/libraries/MsgFlag.tsol";
 import "@broxus/contracts/contracts/platform/Platform.tsol";
@@ -26,7 +26,7 @@ contract Proposal is IProposal, IUpgradableByRequest, PlatformBase, DaoPlatformT
     address public proposer;
     string public description;
     TonAction[] public tonActions;
-    EthAction[] public ethActions;
+    BtcAction[] public btcActions;
     uint16 public proposalVersion;
     ProposalConfiguration public config;
     uint32 public startTime;
@@ -69,8 +69,8 @@ contract Proposal is IProposal, IUpgradableByRequest, PlatformBase, DaoPlatformT
         return{value: 0, flag: MsgFlag.REMAINING_GAS, bounce: false} proposer;
     }
 
-    function getActions() override public view responsible returns (TonAction[], EthAction[]) {
-        return{value: 0, flag: MsgFlag.REMAINING_GAS, bounce: false} (tonActions, ethActions);
+    function getActions() override public view responsible returns (TonAction[], BtcAction[]) {
+        return{value: 0, flag: MsgFlag.REMAINING_GAS, bounce: false} (tonActions, btcActions);
     }
 
     function getConfig() override public view responsible returns (ProposalConfiguration) {
@@ -115,7 +115,7 @@ contract Proposal is IProposal, IUpgradableByRequest, PlatformBase, DaoPlatformT
         IDaoRoot(root).onProposalSucceeded{
             value: 0,
             flag: MsgFlag.ALL_NOT_RESERVED
-        }(id, proposer, tonActions, ethActions);
+        }(id, proposer, tonActions, btcActions);
     }
 
     function cancel() override public {
@@ -226,8 +226,8 @@ contract Proposal is IProposal, IUpgradableByRequest, PlatformBase, DaoPlatformT
         id = initialData.decode(uint32);
 
         TvmCell params = s.loadRef();
-        (stakingRoot, proposer, description, tonActions, ethActions, config, proposalVersion)
-            = abi.decode(params, (address, address, string, TonAction[], EthAction[], ProposalConfiguration, uint16));
+        (stakingRoot, proposer, description, tonActions, btcActions, config, proposalVersion)
+            = abi.decode(params, (address, address, string, TonAction[], BtcAction[], ProposalConfiguration, uint16));
         startTime = now + config.votingDelay;
         endTime = startTime + config.votingPeriod;
     }
@@ -252,7 +252,7 @@ contract Proposal is IProposal, IUpgradableByRequest, PlatformBase, DaoPlatformT
             TvmCell data = abi.encode(
                 root, proposer, stakingRoot,
                 id, description, config,
-                tonActions, ethActions,
+                tonActions, btcActions,
                 startTime, endTime, executionTime,
                 canceled, executed,
                 forVotes, againstVotes,

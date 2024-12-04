@@ -14,26 +14,23 @@
     "contracts/interfaces/IUpgradableByRequest.tsol": {
         "modificationTime": 1725821848079
     },
-    "contracts/libraries/DaoErrors.tsol": {
-        "modificationTime": 1725821848079
-    },
     "contracts/interfaces/IVoter.tsol": {
         "modificationTime": 1725821848079
     },
-    "contracts/libraries/PlatformTypes.tsol": {
-        "modificationTime": 1725821848080
+    "contracts/structures/ActionStructure.tsol": {
+        "modificationTime": 1733301882019
+    },
+    "contracts/libraries/DaoErrors.tsol": {
+        "modificationTime": 1725821848079
     },
     "contracts/libraries/Gas.tsol": {
         "modificationTime": 1725821848079
     },
     "contracts/structures/PlatformTypes.tsol": {
-        "modificationTime": 1725821848080
+        "modificationTime": 1733301085784
     },
     "contracts/structures/ProposalConfigurationStructure.tsol": {
         "modificationTime": 1725821848080
-    },
-    "contracts/structures/ActionStructure.tsol": {
-        "modificationTime": 1725821848079
     },
     "contracts/structures/ProposalSates.tsol": {
         "modificationTime": 1725821848080
@@ -56,14 +53,14 @@
     "contracts/utils/cell-encoder/StakingCellEncoder.tsol": {
         "modificationTime": 1725821848081
     },
-    "contracts/interfaces/IDaoRoot.tsol": {
-        "modificationTime": 1725821848079
-    },
     "contracts/interfaces/IProposal.tsol": {
-        "modificationTime": 1733248577507
+        "modificationTime": 1733301882034
     },
     "contracts/interfaces/IUserData.tsol": {
         "modificationTime": 1725821848080
+    },
+    "contracts/interfaces/IDaoRoot.tsol": {
+        "modificationTime": 1733301910021
     },
     "contracts/test/TestTarget.tsol": {
         "modificationTime": 1733179315536
@@ -90,31 +87,31 @@
         "modificationTime": 1733177389015
     },
     "contracts/DaoRoot.tsol": {
-        "modificationTime": 1733178667049
+        "modificationTime": 1733301910040
     },
     "contracts/Proposal.tsol": {
-        "modificationTime": 1733178746753
+        "modificationTime": 1733301910004
     },
     "contracts/utils/Platform.tsol": {
+        "modificationTime": 1725821848081
+    },
+    "contracts/utils/Wallet.tsol": {
         "modificationTime": 1725821848081
     },
     "contracts/utils/cell-encoder/CellEncoderStandalone.tsol": {
         "modificationTime": 1733174047204
     },
-    "contracts/utils/Wallet.tsol": {
-        "modificationTime": 1725821848081
-    },
     "node_modules/@broxus/tip3/contracts/abstract/TokenRootTransferableOwnershipBase.tsol": {
         "modificationTime": 1733177389009
     },
-    "node_modules/@broxus/tip3/contracts/abstract/TokenRootDisableableMintBase.tsol": {
-        "modificationTime": 1733177389009
+    "node_modules/@broxus/tip3/contracts/abstract/TokenRootBurnPausableBase.tsol": {
+        "modificationTime": 1733177389008
     },
     "node_modules/@broxus/tip3/contracts/abstract/TokenRootBurnableByRootBase.tsol": {
         "modificationTime": 1733177389008
     },
-    "node_modules/@broxus/tip3/contracts/abstract/TokenRootBurnPausableBase.tsol": {
-        "modificationTime": 1733177389008
+    "node_modules/@broxus/tip3/contracts/abstract/TokenRootDisableableMintBase.tsol": {
+        "modificationTime": 1733177389009
     },
     "node_modules/@broxus/tip3/contracts/libraries/TokenErrors.tsol": {
         "modificationTime": 1733177389006
@@ -155,11 +152,11 @@
     "/app/node_modules/@broxus/contracts/contracts/platform/PlatformBase.tsol": {
         "modificationTime": 1733177388555
     },
-    "/app/node_modules/@broxus/contracts/contracts/utils/RandomNonce.tsol": {
-        "modificationTime": 1733177388561
-    },
     "/app/node_modules/@broxus/contracts/contracts/wallets/Account.tsol": {
         "modificationTime": 1733177388542
+    },
+    "/app/node_modules/@broxus/contracts/contracts/utils/RandomNonce.tsol": {
+        "modificationTime": 1733177388561
     },
     "compilerSettings": {
         "externalContracts": {

@@ -6,7 +6,7 @@ import "../structures/ProposalSates.tsol";
 import "../structures/PlatformTypes.tsol";
 
 interface IDaoRoot is ActionStructure, ProposalConfigurationStructure, ProposalStates, DaoPlatformTypes {
-    event EthActions(
+    event BtcActions(
         int8 gasBackWid,
         uint256 gasBackAddress,
         uint32 chainId,
@@ -16,7 +16,7 @@ interface IDaoRoot is ActionStructure, ProposalConfigurationStructure, ProposalS
         uint32 proposalId,
         address proposer,
         TonAction[] tonActions,
-        EthAction[] ethActions,
+        BtcAction[] btcActions,
         string description
     );
     event StakingRootUpdated(address oldRoot, address newRoot);
@@ -48,9 +48,9 @@ interface IDaoRoot is ActionStructure, ProposalConfigurationStructure, ProposalS
     function expectedProposalAddress(uint32 proposalId) external responsible view returns (address);
     function expectedStakingAccountAddress(address accountOwner) external responsible view returns (address);
 
-    function propose(uint32 answerId, TonAction[] tonActions, EthAction[] ethActions, string description) external;
+    function propose(uint32 answerId, TonAction[] tonActions, BtcAction[] btcActions, string description) external;
     function deployProposal(uint32 nonce, address accountOwner, TvmCell proposalData) external;
-    function onProposalSucceeded(uint32 proposalId, address proposer, TonAction[] tonActions, EthAction[] ethActions) external;
+    function onProposalSucceeded(uint32 proposalId, address proposer, TonAction[] tonActions, BtcAction[] btcActions) external;
 
     function setStakingRoot(address newRoot) external;
     function transferAdmin(address newAdmin) external;

@@ -84,7 +84,7 @@
 			"inputs": [
 				{"name":"answerId","type":"uint32"},
 				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tonActions","type":"tuple[]"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"ethActions","type":"tuple[]"},
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
 				{"name":"description","type":"string"}
 			],
 			"outputs": [
@@ -106,7 +106,7 @@
 				{"name":"proposalId","type":"uint32"},
 				{"name":"proposer","type":"address"},
 				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tonActions","type":"tuple[]"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"ethActions","type":"tuple[]"}
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"btcActions","type":"tuple[]"}
 			],
 			"outputs": [
 			]
@@ -370,7 +370,7 @@
 	],
 	"events": [
 		{
-			"name": "EthActions",
+			"name": "BtcActions",
 			"inputs": [
 				{"name":"gasBackWid","type":"int8"},
 				{"name":"gasBackAddress","type":"uint256"},
@@ -386,7 +386,7 @@
 				{"name":"proposalId","type":"uint32"},
 				{"name":"proposer","type":"address"},
 				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tonActions","type":"tuple[]"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"ethActions","type":"tuple[]"},
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
 				{"name":"description","type":"string"}
 			],
 			"outputs": [
