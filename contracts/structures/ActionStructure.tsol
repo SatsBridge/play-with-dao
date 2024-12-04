@@ -1,7 +1,7 @@
 pragma ever-solidity >= 0.62.0;
 
 interface ActionStructure {
-    struct TonAction {
+    struct TvmAction {
         uint128 value;
         address target;
         TvmCell payload;
@@ -12,13 +12,6 @@ interface ActionStructure {
         uint32 chainId;
         uint160 target;
         string signature;
-        bytes callData;
-    }
-
-    struct EthActionStripped {
-        uint value;
-        uint160 target;
-        string signature;
-        bytes callData;
+        bytes psbt;
     }
 }

@@ -83,8 +83,8 @@
 			"name": "propose",
 			"inputs": [
 				{"name":"answerId","type":"uint32"},
-				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tonActions","type":"tuple[]"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
+				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tvmActions","type":"tuple[]"},
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
 				{"name":"description","type":"string"}
 			],
 			"outputs": [
@@ -105,14 +105,14 @@
 			"inputs": [
 				{"name":"proposalId","type":"uint32"},
 				{"name":"proposer","type":"address"},
-				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tonActions","type":"tuple[]"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"btcActions","type":"tuple[]"}
+				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tvmActions","type":"tuple[]"},
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"}
 			],
 			"outputs": [
 			]
 		},
 		{
-			"name": "calcTonActionsValue",
+			"name": "calcTvmActionsValue",
 			"inputs": [
 				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"actions","type":"tuple[]"}
 			],
@@ -121,9 +121,9 @@
 			]
 		},
 		{
-			"name": "calcEthActionsValue",
+			"name": "calcBtcActionsValue",
 			"inputs": [
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"actions","type":"tuple[]"}
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"psbt","type":"bytes"}],"name":"actions","type":"tuple[]"}
 			],
 			"outputs": [
 				{"name":"totalValue","type":"uint128"}
@@ -257,8 +257,7 @@
 			"inputs": [
 				{"name":"gasBackWid","type":"int8"},
 				{"name":"gasBackAddress","type":"uint256"},
-				{"name":"chainId","type":"uint32"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"actions","type":"tuple[]"}
+				{"name":"chainId","type":"uint32"}
 			],
 			"outputs": [
 				{"name":"data","type":"cell"}
@@ -272,8 +271,7 @@
 			"outputs": [
 				{"name":"gasBackWid","type":"int8"},
 				{"name":"gasBackAddress","type":"uint256"},
-				{"name":"chainId","type":"uint32"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"actions","type":"tuple[]"}
+				{"name":"chainId","type":"uint32"}
 			]
 		},
 		{
@@ -374,8 +372,7 @@
 			"inputs": [
 				{"name":"gasBackWid","type":"int8"},
 				{"name":"gasBackAddress","type":"uint256"},
-				{"name":"chainId","type":"uint32"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"actions","type":"tuple[]"}
+				{"name":"chainId","type":"uint32"}
 			],
 			"outputs": [
 			]
@@ -385,8 +382,8 @@
 			"inputs": [
 				{"name":"proposalId","type":"uint32"},
 				{"name":"proposer","type":"address"},
-				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tonActions","type":"tuple[]"},
-				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"callData","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
+				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tvmActions","type":"tuple[]"},
+				{"components":[{"name":"value","type":"uint256"},{"name":"chainId","type":"uint32"},{"name":"target","type":"uint160"},{"name":"signature","type":"string"},{"name":"psbt","type":"bytes"}],"name":"btcActions","type":"tuple[]"},
 				{"name":"description","type":"string"}
 			],
 			"outputs": [
@@ -505,7 +502,7 @@
 			"name": "ExecutingTonActions",
 			"inputs": [
 				{"name":"proposalId","type":"uint32"},
-				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tonActions","type":"tuple[]"}
+				{"components":[{"name":"value","type":"uint128"},{"name":"target","type":"address"},{"name":"payload","type":"cell"}],"name":"tvmActions","type":"tuple[]"}
 			],
 			"outputs": [
 			]

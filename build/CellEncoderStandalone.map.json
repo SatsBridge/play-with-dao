@@ -1,155 +1,111 @@
 {
   "map": {
-    "0908739d2c7a2c2eee800ea3bc66f22634b042d6ca9f623c14ad51fa425a12e9": {
+    "037f4718af3bdeaae4134220b884f99c48ab9b14426a77e2a218fb01fb99257a": {
       "0": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 693
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 18
+      },
+      "8": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 18
       },
       "16": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 694
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 25
       },
       "24": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 695
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 25
       },
-      "40": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 696
+      "32": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 25
       },
-      "56": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 697
+      "48": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 25
       },
-      "72": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 698
-      },
-      "80": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 699
+      "64": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 25
       },
       "88": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 700
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 25
       },
-      "112": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 701
+      "96": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 25
       },
-      "136": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 702
-      },
-      "144": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 703
-      },
-      "152": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 704
-      },
-      "168": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 705
-      },
-      "184": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 709
-      },
-      "192": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 710
-      },
-      "216": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 711
-      },
-      "232": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 712
-      },
-      "240": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 713
-      },
-      "256": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 717
-      },
-      "264": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 718
-      },
-      "280": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 721
+      "104": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 25
       }
     },
-    "0dae57ffad549430655d9dcddf6cca16932c6444e880ece5eebf89fbb0d50ce0": {
+    "16d9448c33949f98d855eba841d272a6c547957c00609588a4c054795a89e598": {
       "0": {
         "filename": "CellEncoderStandalone.code",
-        "line": 791
+        "line": 770
       },
       "8": {
         "filename": "CellEncoderStandalone.code",
-        "line": 792
+        "line": 771
       },
       "56": {
         "filename": "CellEncoderStandalone.code",
-        "line": 793
+        "line": 772
       },
       "64": {
         "filename": "CellEncoderStandalone.code",
-        "line": 794
+        "line": 773
       },
       "80": {
         "filename": "CellEncoderStandalone.code",
-        "line": 797
+        "line": 776
       },
       "88": {
         "filename": "CellEncoderStandalone.code",
-        "line": 798
+        "line": 777
       },
       "136": {
         "filename": "CellEncoderStandalone.code",
-        "line": 799
+        "line": 778
       },
       "144": {
         "filename": "CellEncoderStandalone.code",
-        "line": 800
+        "line": 779
       },
       "160": {
         "filename": "CellEncoderStandalone.code",
-        "line": 803
+        "line": 782
       },
       "168": {
         "filename": "CellEncoderStandalone.code",
-        "line": 804
+        "line": 783
       },
       "216": {
         "filename": "CellEncoderStandalone.code",
-        "line": 805
+        "line": 784
       },
       "224": {
         "filename": "CellEncoderStandalone.code",
-        "line": 806
+        "line": 785
       },
       "240": {
         "filename": "CellEncoderStandalone.code",
-        "line": 809
+        "line": 788
       },
       "248": {
         "filename": "CellEncoderStandalone.code",
-        "line": 810
+        "line": 789
       },
       "296": {
         "filename": "CellEncoderStandalone.code",
-        "line": 811
+        "line": 790
       },
       "304": {
         "filename": "CellEncoderStandalone.code",
-        "line": 812
+        "line": 791
       }
     },
     "3083f553cd19f64a93d795e4a3275c09054202678c537db0717bc0fbefa6f328": {
@@ -290,6 +246,128 @@
         "line": 341
       }
     },
+    "419b73b13e9c6e7fd0a292aa64c3fa76e7342cd87fe7471c7aea32693f745398": {
+      "0": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 497
+      },
+      "8": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 498
+      },
+      "24": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 499
+      },
+      "48": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 6
+      },
+      "64": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 6
+      },
+      "80": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 6
+      },
+      "96": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 6
+      },
+      "104": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 506
+      },
+      "120": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 509
+      },
+      "128": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 510
+      },
+      "144": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 511
+      },
+      "152": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 512
+      },
+      "160": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 513
+      },
+      "176": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 514
+      },
+      "192": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 515
+      },
+      "200": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 516
+      },
+      "208": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 517
+      },
+      "216": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 518
+      },
+      "240": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 519
+      },
+      "248": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 520
+      },
+      "296": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 521
+      },
+      "320": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 522
+      },
+      "328": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 523
+      },
+      "336": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 524
+      },
+      "344": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 525
+      },
+      "360": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 527
+      },
+      "368": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 528
+      },
+      "376": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 530
+      },
+      "384": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 531
+      },
+      "400": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 534
+      }
+    },
     "42aa676d16d19f95a85a3a8f6b8578c96167a12005f5a454dcdc62d5181d3cf4": {
       "0": {
         "filename": "CellEncoderStandalone.code",
@@ -332,116 +410,116 @@
         "line": 17
       }
     },
-    "434fa1aa1d296878d8ef65b32ef3889b29877a0d8d5b2d5d7a87572c91704655": {
+    "4646c7c5285b7d65713e0906588f0fff4c7b73f3b7b33d4b5e05f3b389b25705": {
       "0": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 15
+        "filename": "<entry-selector>",
+        "line": 1
       },
-      "16": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 15
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
       },
       "24": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 15
+        "filename": "<entry-selector>",
+        "line": 3
       },
-      "40": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 15
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
       },
       "56": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 15
+        "filename": "<entry-selector>",
+        "line": 6
       },
       "72": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 15
+        "filename": "<entry-selector>",
+        "line": 7
       },
-      "80": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 15
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
       },
       "96": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 15
+        "filename": "<entry-selector>",
+        "line": 9
       },
-      "104": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 15
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
       },
-      "120": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 15
-      },
-      "136": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 16
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
       }
     },
     "46a76f605f3dc44dba691d695848db95072d5d3988b49c5ca6260093c37da8ed": {
       "0": {
         "filename": "CellEncoderStandalone.code",
-        "line": 762
+        "line": 741
       },
       "8": {
         "filename": "CellEncoderStandalone.code",
-        "line": 763
+        "line": 742
       },
       "56": {
         "filename": "CellEncoderStandalone.code",
-        "line": 764
+        "line": 743
       },
       "64": {
         "filename": "CellEncoderStandalone.code",
-        "line": 765
+        "line": 744
       },
       "80": {
         "filename": "CellEncoderStandalone.code",
-        "line": 768
+        "line": 747
       },
       "88": {
         "filename": "CellEncoderStandalone.code",
-        "line": 769
+        "line": 748
       },
       "136": {
         "filename": "CellEncoderStandalone.code",
-        "line": 770
+        "line": 749
       },
       "144": {
         "filename": "CellEncoderStandalone.code",
-        "line": 771
+        "line": 750
       },
       "160": {
         "filename": "CellEncoderStandalone.code",
-        "line": 774
+        "line": 753
       },
       "168": {
         "filename": "CellEncoderStandalone.code",
-        "line": 775
+        "line": 754
       },
       "216": {
         "filename": "CellEncoderStandalone.code",
-        "line": 776
+        "line": 755
       },
       "224": {
         "filename": "CellEncoderStandalone.code",
-        "line": 777
+        "line": 756
       },
       "240": {
         "filename": "CellEncoderStandalone.code",
-        "line": 780
+        "line": 759
       },
       "248": {
         "filename": "CellEncoderStandalone.code",
-        "line": 781
+        "line": 760
       },
       "296": {
         "filename": "CellEncoderStandalone.code",
-        "line": 782
+        "line": 761
       },
       "304": {
         "filename": "CellEncoderStandalone.code",
-        "line": 783
+        "line": 762
       }
     },
     "46eccc46b970355fe47f0ea3ee5c8150de64ba262546e980d8dceb482b3550c9": {
@@ -602,6 +680,92 @@
         "line": 205
       }
     },
+    "49765d3cfa5f89a1016c8c20eeb0a8aa9c1fe904052e076b5b407964d0a461b9": {
+      "0": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 672
+      },
+      "16": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 673
+      },
+      "24": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 674
+      },
+      "40": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 675
+      },
+      "56": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 676
+      },
+      "72": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 677
+      },
+      "80": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 678
+      },
+      "88": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 679
+      },
+      "112": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 680
+      },
+      "136": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 681
+      },
+      "144": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 682
+      },
+      "152": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 683
+      },
+      "168": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 684
+      },
+      "184": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 688
+      },
+      "192": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 689
+      },
+      "216": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 690
+      },
+      "232": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 691
+      },
+      "240": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 692
+      },
+      "256": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 696
+      },
+      "264": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 697
+      },
+      "280": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 700
+      }
+    },
     "51e349e5c6cd7d3a2f8494f83296b3c8c2ddcf4a1277f3dfd5e6f641f1b52fd1": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
@@ -644,146 +808,54 @@
         "line": 43
       }
     },
-    "5bda52bd91305502c305a182204a6020fbd3389c4cb6a9df380399f8995b4c9c": {
+    "51e4529a3f860d3c34762583b8e616ce5a5d272f2314f62dbeb4e4bad6193b08": {
       "0": {
         "filename": "CellEncoderStandalone.code",
-        "line": 497
+        "line": 737
       },
       "8": {
         "filename": "CellEncoderStandalone.code",
-        "line": 498
+        "line": 738
       },
-      "24": {
+      "56": {
         "filename": "CellEncoderStandalone.code",
-        "line": 499
-      },
-      "48": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 6
+        "line": 739
       },
       "64": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 6
+        "filename": "CellEncoderStandalone.code",
+        "line": 740
       },
       "80": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 6
+        "filename": "CellEncoderStandalone.code",
+        "line": 766
       },
-      "96": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 6
-      },
-      "112": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 6
-      },
-      "128": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 6
+      "88": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 767
       },
       "136": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 6
+        "filename": "CellEncoderStandalone.code",
+        "line": 768
       },
-      "152": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 6
+      "144": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 769
       },
       "160": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 6
+        "filename": "CellEncoderStandalone.code",
+        "line": 795
       },
       "168": {
         "filename": "CellEncoderStandalone.code",
-        "line": 511
-      },
-      "184": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 514
-      },
-      "192": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 515
-      },
-      "208": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 516
+        "line": 796
       },
       "216": {
         "filename": "CellEncoderStandalone.code",
-        "line": 517
+        "line": 797
       },
       "224": {
         "filename": "CellEncoderStandalone.code",
-        "line": 518
-      },
-      "240": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 519
-      },
-      "256": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 520
-      },
-      "264": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 521
-      },
-      "272": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 522
-      },
-      "280": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 523
-      },
-      "304": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 524
-      },
-      "312": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 525
-      },
-      "360": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 526
-      },
-      "384": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 527
-      },
-      "392": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 528
-      },
-      "400": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 529
-      },
-      "408": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 530
-      },
-      "424": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 532
-      },
-      "432": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 533
-      },
-      "440": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 535
-      },
-      "448": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 536
-      },
-      "464": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 539
+        "line": 798
       }
     },
     "5d41676d051e17840660a491c7cb5147ef6d9a7af38e692362b71b5fc6f4834c": {
@@ -831,227 +903,69 @@
     "60488e96384d55db5809d3be340ce676908c99e02e0f6a89a307f1376c1ceb17": {
       "0": {
         "filename": "CellEncoderStandalone.code",
-        "line": 667
+        "line": 646
       },
       "16": {
         "filename": "CellEncoderStandalone.code",
-        "line": 668
+        "line": 647
       },
       "32": {
         "filename": "CellEncoderStandalone.code",
-        "line": 669
+        "line": 648
       },
       "40": {
         "filename": "CellEncoderStandalone.code",
-        "line": 670
+        "line": 649
       },
       "56": {
         "filename": "CellEncoderStandalone.code",
-        "line": 671
+        "line": 650
       },
       "72": {
         "filename": "CellEncoderStandalone.code",
-        "line": 672
+        "line": 651
       },
       "88": {
         "filename": "CellEncoderStandalone.code",
-        "line": 673
+        "line": 652
       },
       "96": {
         "filename": "CellEncoderStandalone.code",
-        "line": 674
+        "line": 653
       }
     },
-    "6d72f5797e1b804bf74fdc9cd43118f0c438cd4ea7e34a39574b3d90035eecd7": {
+    "63ddee393bf3ae6e57ecbe16303538a1724a6ea250e69fc60999ca83ecefefa8": {
       "0": {
         "filename": "CellEncoderStandalone.code",
-        "line": 562
+        "line": 799
       },
       "8": {
         "filename": "CellEncoderStandalone.code",
-        "line": 563
-      },
-      "24": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 564
-      },
-      "48": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 19
-      },
-      "56": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 19
-      },
-      "64": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 569
-      },
-      "80": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 572
-      },
-      "88": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 573
-      },
-      "104": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 574
-      },
-      "112": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 575
-      },
-      "120": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 576
-      },
-      "136": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 577
-      },
-      "152": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 578
-      },
-      "160": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 579
-      },
-      "168": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 580
-      },
-      "176": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 581
-      },
-      "200": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 582
-      },
-      "208": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 583
-      },
-      "216": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 584
-      },
-      "240": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 585
-      },
-      "256": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 586
-      },
-      "264": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 587
-      },
-      "312": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 588
-      },
-      "328": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 589
-      },
-      "344": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 590
-      },
-      "360": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 591
-      },
-      "368": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 592
-      },
-      "384": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 593
-      },
-      "392": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 594
-      },
-      "408": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 595
-      },
-      "424": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 596
-      },
-      "432": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 597
-      },
-      "440": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 598
-      },
-      "448": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 599
-      },
-      "464": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 601
-      },
-      "472": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 602
-      },
-      "488": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 604
-      },
-      "496": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 605
-      },
-      "512": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 608
-      }
-    },
-    "6ebb85dfc617e657d46996a5950e5895d70c3f640bcce398e6d6c733eb34a7e4": {
-      "0": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 820
-      },
-      "8": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 821
+        "line": 800
       },
       "56": {
         "filename": "CellEncoderStandalone.code",
-        "line": 822
+        "line": 801
       },
       "64": {
         "filename": "CellEncoderStandalone.code",
-        "line": 823
+        "line": 802
       },
       "80": {
         "filename": "CellEncoderStandalone.code",
-        "line": 826
+        "line": 805
       },
       "88": {
         "filename": "CellEncoderStandalone.code",
-        "line": 827
+        "line": 806
       },
       "136": {
         "filename": "CellEncoderStandalone.code",
-        "line": 828
+        "line": 807
       },
       "144": {
         "filename": "CellEncoderStandalone.code",
-        "line": 829
+        "line": 808
       }
     },
     "71913dbd3c6a04b26f3b2c20cd21fffd435ca749ad092f6634f3ea40953045f8": {
@@ -1210,54 +1124,134 @@
         "line": 2
       }
     },
-    "7fc5833c023ef2a27659d761e72c9d403d081f5b13e7ee0f0fdec7dbebea491d": {
+    "73d40b3e594f81c38a76fa38ab47af068803c19fba2cd2547d0b20c5f28b5dda": {
       "0": {
         "filename": "CellEncoderStandalone.code",
-        "line": 758
+        "line": 552
       },
       "8": {
         "filename": "CellEncoderStandalone.code",
-        "line": 759
+        "line": 553
+      },
+      "24": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 554
+      },
+      "48": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 18
       },
       "56": {
-        "filename": "CellEncoderStandalone.code",
-        "line": 760
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 18
       },
       "64": {
         "filename": "CellEncoderStandalone.code",
-        "line": 761
+        "line": 559
       },
       "80": {
         "filename": "CellEncoderStandalone.code",
-        "line": 787
+        "line": 562
       },
       "88": {
         "filename": "CellEncoderStandalone.code",
-        "line": 788
+        "line": 563
+      },
+      "104": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 564
+      },
+      "112": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 565
+      },
+      "120": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 566
       },
       "136": {
         "filename": "CellEncoderStandalone.code",
-        "line": 789
+        "line": 567
       },
-      "144": {
+      "152": {
         "filename": "CellEncoderStandalone.code",
-        "line": 790
+        "line": 568
       },
       "160": {
         "filename": "CellEncoderStandalone.code",
-        "line": 816
+        "line": 569
       },
       "168": {
         "filename": "CellEncoderStandalone.code",
-        "line": 817
+        "line": 570
       },
-      "216": {
+      "176": {
         "filename": "CellEncoderStandalone.code",
-        "line": 818
+        "line": 571
+      },
+      "200": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 572
+      },
+      "208": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 573
       },
       "224": {
         "filename": "CellEncoderStandalone.code",
-        "line": 819
+        "line": 574
+      },
+      "240": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 575
+      },
+      "256": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 576
+      },
+      "304": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 577
+      },
+      "320": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 578
+      },
+      "336": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 579
+      },
+      "352": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 580
+      },
+      "360": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 581
+      },
+      "368": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 582
+      },
+      "384": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 584
+      },
+      "392": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 585
+      },
+      "408": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 587
+      },
+      "416": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 588
+      },
+      "432": {
+        "filename": "CellEncoderStandalone.code",
+        "line": 591
       }
     },
     "8edc6fa3add9a6a345faba55ea87bcb488d1d87cf4223ff004764afd4300e06f": {
@@ -1478,6 +1472,32 @@
         "line": 23
       }
     },
+    "ab831a323ccd7b86223b92c4da1cb5e46b3180e1dfa3bddac995f0a3cbaa5555": {
+      "0": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 14
+      },
+      "8": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 14
+      },
+      "16": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 14
+      },
+      "32": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 14
+      },
+      "48": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 14
+      },
+      "64": {
+        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
+        "line": 15
+      }
+    },
     "b3fe7c8cda569d96c4a3727ecbe4720e4b5d2688d1f7a9fee3e02f6153aa6c52": {
       "0": {
         "filename": "CellEncoderStandalone.code",
@@ -1619,215 +1639,199 @@
     "b6f27d187f26bd046272f9f471e9ae01f051b960e654874ac3fb0749c691c4c6": {
       "0": {
         "filename": "CellEncoderStandalone.code",
-        "line": 645
+        "line": 624
       },
       "16": {
         "filename": "CellEncoderStandalone.code",
-        "line": 646
+        "line": 625
       },
       "24": {
         "filename": "CellEncoderStandalone.code",
-        "line": 647
+        "line": 626
       },
       "40": {
         "filename": "CellEncoderStandalone.code",
-        "line": 648
+        "line": 627
       },
       "56": {
         "filename": "CellEncoderStandalone.code",
-        "line": 649
+        "line": 628
       },
       "72": {
         "filename": "CellEncoderStandalone.code",
-        "line": 650
+        "line": 629
       },
       "80": {
         "filename": "CellEncoderStandalone.code",
-        "line": 651
+        "line": 630
       },
       "96": {
         "filename": "CellEncoderStandalone.code",
-        "line": 652
+        "line": 631
       },
       "104": {
         "filename": "CellEncoderStandalone.code",
-        "line": 653
+        "line": 632
       },
       "120": {
         "filename": "CellEncoderStandalone.code",
-        "line": 654
+        "line": 633
       },
       "136": {
         "filename": "CellEncoderStandalone.code",
-        "line": 655
+        "line": 634
       },
       "152": {
         "filename": "CellEncoderStandalone.code",
-        "line": 656
+        "line": 635
       },
       "168": {
         "filename": "CellEncoderStandalone.code",
-        "line": 657
+        "line": 636
       },
       "192": {
         "filename": "CellEncoderStandalone.code",
-        "line": 658
+        "line": 637
       },
       "208": {
         "filename": "CellEncoderStandalone.code",
-        "line": 659
+        "line": 638
       },
       "216": {
         "filename": "CellEncoderStandalone.code",
-        "line": 660
+        "line": 639
       },
       "232": {
         "filename": "CellEncoderStandalone.code",
-        "line": 662
+        "line": 641
       }
     },
-    "c8f5430c1c9567e7d1eeb0285b6f70f00d28cc7beaf550fbcd1cf0b7226a7cbe": {
+    "d3bc0b80f42baccdd6f3d4645285e871d51096f0919df01e56056785f9822f9b": {
       "0": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 19
+        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
+        "line": 13
       },
       "8": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 19
+        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
+        "line": 13
+      },
+      "16": {
+        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
+        "line": 14
       },
       "24": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
+        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
+        "line": 14
       },
-      "40": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
+      "32": {
+        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
+        "line": 14
       },
       "48": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
+        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
+        "line": 14
       },
       "64": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
+        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
+        "line": 14
       },
-      "80": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
+      "88": {
+        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
+        "line": 14
       },
       "96": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
+        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
+        "line": 14
       },
-      "112": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
-      },
-      "128": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
-      },
-      "144": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
-      },
-      "160": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
-      },
-      "168": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
-      },
-      "176": {
-        "filename": "../contracts/utils/cell-encoder/DaoCellEncoder.tsol",
-        "line": 27
+      "104": {
+        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
+        "line": 14
       }
     },
-    "cc376e2e0f12f0428f0bbfd7b29424e191fc6e4f0d423900f5142abaca02bd62": {
+    "da4eda279d1934bc43855d39d5f2e8ab066f88a7bac67423fc8b904cb8c0f04e": {
       "0": {
         "filename": "CellEncoderStandalone.code",
-        "line": 725
+        "line": 704
       },
       "16": {
         "filename": "CellEncoderStandalone.code",
-        "line": 726
+        "line": 705
       },
       "24": {
         "filename": "CellEncoderStandalone.code",
-        "line": 727
+        "line": 706
       },
       "40": {
         "filename": "CellEncoderStandalone.code",
-        "line": 728
+        "line": 707
       },
       "56": {
         "filename": "CellEncoderStandalone.code",
-        "line": 729
+        "line": 708
       },
       "72": {
         "filename": "CellEncoderStandalone.code",
-        "line": 730
+        "line": 709
       },
       "80": {
         "filename": "CellEncoderStandalone.code",
-        "line": 731
+        "line": 710
       },
       "96": {
         "filename": "CellEncoderStandalone.code",
-        "line": 734
+        "line": 713
       },
       "112": {
         "filename": "CellEncoderStandalone.code",
-        "line": 735
+        "line": 714
       },
       "120": {
         "filename": "CellEncoderStandalone.code",
-        "line": 736
+        "line": 715
       },
       "128": {
         "filename": "CellEncoderStandalone.code",
-        "line": 737
+        "line": 716
       },
       "144": {
         "filename": "CellEncoderStandalone.code",
-        "line": 738
+        "line": 717
       },
       "160": {
         "filename": "CellEncoderStandalone.code",
-        "line": 739
+        "line": 718
       },
       "168": {
         "filename": "CellEncoderStandalone.code",
-        "line": 740
+        "line": 719
       },
       "184": {
         "filename": "CellEncoderStandalone.code",
-        "line": 741
+        "line": 720
       },
       "192": {
         "filename": "CellEncoderStandalone.code",
-        "line": 742
+        "line": 721
       },
       "208": {
         "filename": "CellEncoderStandalone.code",
-        "line": 743
+        "line": 722
       },
       "224": {
         "filename": "CellEncoderStandalone.code",
-        "line": 744
+        "line": 723
       },
       "240": {
         "filename": "CellEncoderStandalone.code",
-        "line": 746
+        "line": 725
       },
       "248": {
         "filename": "CellEncoderStandalone.code",
-        "line": 747
+        "line": 726
       },
       "264": {
         "filename": "CellEncoderStandalone.code",
-        "line": 748
+        "line": 727
       },
       "272": {
         "filename": "stdlib.sol",
@@ -1883,117 +1887,29 @@
       },
       "464": {
         "filename": "CellEncoderStandalone.code",
-        "line": 750
+        "line": 729
       },
       "480": {
         "filename": "CellEncoderStandalone.code",
-        "line": 751
+        "line": 730
       },
       "488": {
         "filename": "CellEncoderStandalone.code",
-        "line": 752
+        "line": 731
       },
       "504": {
         "filename": "CellEncoderStandalone.code",
-        "line": 755
-      }
-    },
-    "cfab4c1c75b87e4f6f812e8ac564780b016f842ecc44860ea9a5826925b43c41": {
-      "0": {
-        "filename": "<entry-selector>",
-        "line": 1
-      },
-      "8": {
-        "filename": "<entry-selector>",
-        "line": 2
-      },
-      "24": {
-        "filename": "<entry-selector>",
-        "line": 3
-      },
-      "32": {
-        "filename": "<entry-selector>",
-        "line": 4
-      },
-      "48": {
-        "filename": "<entry-selector>",
-        "line": 5
-      },
-      "56": {
-        "filename": "<entry-selector>",
-        "line": 6
-      },
-      "72": {
-        "filename": "<entry-selector>",
-        "line": 7
-      },
-      "88": {
-        "filename": "<entry-selector>",
-        "line": 8
-      },
-      "96": {
-        "filename": "<entry-selector>",
-        "line": 9
-      },
-      "112": {
-        "filename": "<entry-selector>",
-        "line": 10
-      },
-      "128": {
-        "filename": "<entry-selector>",
-        "line": 11
-      }
-    },
-    "d3bc0b80f42baccdd6f3d4645285e871d51096f0919df01e56056785f9822f9b": {
-      "0": {
-        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
-        "line": 13
-      },
-      "8": {
-        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
-        "line": 13
-      },
-      "16": {
-        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
-        "line": 14
-      },
-      "24": {
-        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
-        "line": 14
-      },
-      "32": {
-        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
-        "line": 14
-      },
-      "48": {
-        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
-        "line": 14
-      },
-      "64": {
-        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
-        "line": 14
-      },
-      "88": {
-        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
-        "line": 14
-      },
-      "96": {
-        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
-        "line": 14
-      },
-      "104": {
-        "filename": "../contracts/utils/cell-encoder/StakingCellEncoder.tsol",
-        "line": 14
+        "line": 734
       }
     },
     "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
       "0": {
         "filename": "CellEncoderStandalone.code",
-        "line": 706
+        "line": 685
       },
       "16": {
         "filename": "CellEncoderStandalone.code",
-        "line": 707
+        "line": 686
       }
     },
     "f2687f9cd09c0d40494f4582b4e85f908507af6762322b3222d057f44c003b8c": {
@@ -2145,39 +2061,39 @@
     "f2b6fee906959c240bebf2ae6014f1d4be66e2dc6e03df25aa5ea29205d3e249": {
       "0": {
         "filename": "CellEncoderStandalone.code",
-        "line": 634
+        "line": 613
       },
       "16": {
         "filename": "CellEncoderStandalone.code",
-        "line": 635
+        "line": 614
       },
       "24": {
         "filename": "CellEncoderStandalone.code",
-        "line": 636
+        "line": 615
       },
       "40": {
         "filename": "CellEncoderStandalone.code",
-        "line": 637
+        "line": 616
       },
       "56": {
         "filename": "CellEncoderStandalone.code",
-        "line": 638
+        "line": 617
       },
       "72": {
         "filename": "CellEncoderStandalone.code",
-        "line": 639
+        "line": 618
       },
       "80": {
         "filename": "CellEncoderStandalone.code",
-        "line": 640
+        "line": 619
       },
       "88": {
         "filename": "CellEncoderStandalone.code",
-        "line": 641
+        "line": 620
       },
       "104": {
         "filename": "CellEncoderStandalone.code",
-        "line": 642
+        "line": 621
       }
     },
     "f2cdbf932c7913d13d0651bb84ebfaa9ffd3ef1b44b78978ebd0efb9630c909e": {

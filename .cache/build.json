@@ -1,14 +1,14 @@
 {
-    "contracts/interfaces/IStakingAccount.tsol": {
-        "modificationTime": 1725821848079
-    },
-    "contracts/interfaces/IStakingPool.tsol": {
-        "modificationTime": 1725821848079
-    },
     "contracts/interfaces/IProposer.tsol": {
         "modificationTime": 1725821848079
     },
+    "contracts/interfaces/IStakingAccount.tsol": {
+        "modificationTime": 1725821848079
+    },
     "contracts/interfaces/IUpgradable.tsol": {
+        "modificationTime": 1725821848079
+    },
+    "contracts/interfaces/IStakingPool.tsol": {
         "modificationTime": 1725821848079
     },
     "contracts/interfaces/IUpgradableByRequest.tsol": {
@@ -16,9 +16,6 @@
     },
     "contracts/interfaces/IVoter.tsol": {
         "modificationTime": 1725821848079
-    },
-    "contracts/structures/ActionStructure.tsol": {
-        "modificationTime": 1733301882019
     },
     "contracts/libraries/DaoErrors.tsol": {
         "modificationTime": 1725821848079
@@ -29,16 +26,19 @@
     "contracts/structures/PlatformTypes.tsol": {
         "modificationTime": 1733301085784
     },
-    "contracts/structures/ProposalConfigurationStructure.tsol": {
-        "modificationTime": 1725821848080
+    "contracts/structures/ActionStructure.tsol": {
+        "modificationTime": 1733314132445
     },
     "contracts/structures/ProposalSates.tsol": {
+        "modificationTime": 1725821848080
+    },
+    "contracts/utils/Delegate.tsol": {
         "modificationTime": 1725821848080
     },
     "contracts/test/TestUpgrade.tsol": {
         "modificationTime": 1725821848080
     },
-    "contracts/utils/Delegate.tsol": {
+    "contracts/structures/ProposalConfigurationStructure.tsol": {
         "modificationTime": 1725821848080
     },
     "contracts/utils/DummyRound.tsol": {
@@ -54,13 +54,13 @@
         "modificationTime": 1725821848081
     },
     "contracts/interfaces/IProposal.tsol": {
-        "modificationTime": 1733301882034
+        "modificationTime": 1733313698101
+    },
+    "contracts/interfaces/IDaoRoot.tsol": {
+        "modificationTime": 1733314530935
     },
     "contracts/interfaces/IUserData.tsol": {
         "modificationTime": 1725821848080
-    },
-    "contracts/interfaces/IDaoRoot.tsol": {
-        "modificationTime": 1733301910021
     },
     "contracts/test/TestTarget.tsol": {
         "modificationTime": 1733179315536
@@ -69,7 +69,7 @@
         "modificationTime": 1725821848081
     },
     "contracts/utils/cell-encoder/DaoCellEncoder.tsol": {
-        "modificationTime": 1733178937093
+        "modificationTime": 1733313591340
     },
     "node_modules/@broxus/tip3/contracts/TokenRoot.tsol": {
         "modificationTime": 1733177389007
@@ -80,26 +80,26 @@
     "node_modules/@broxus/tip3/contracts/TokenWallet.tsol": {
         "modificationTime": 1733177389011
     },
-    "node_modules/@broxus/tip3/contracts/TokenWalletUpgradeable.tsol": {
-        "modificationTime": 1733177389016
-    },
     "node_modules/@broxus/tip3/contracts/TokenWalletPlatform.tsol": {
         "modificationTime": 1733177389015
     },
+    "node_modules/@broxus/tip3/contracts/TokenWalletUpgradeable.tsol": {
+        "modificationTime": 1733177389016
+    },
     "contracts/DaoRoot.tsol": {
-        "modificationTime": 1733301910040
+        "modificationTime": 1733314687370
     },
     "contracts/Proposal.tsol": {
-        "modificationTime": 1733301910004
+        "modificationTime": 1733314530967
     },
     "contracts/utils/Platform.tsol": {
         "modificationTime": 1725821848081
     },
-    "contracts/utils/Wallet.tsol": {
-        "modificationTime": 1725821848081
-    },
     "contracts/utils/cell-encoder/CellEncoderStandalone.tsol": {
         "modificationTime": 1733174047204
+    },
+    "contracts/utils/Wallet.tsol": {
+        "modificationTime": 1725821848081
     },
     "node_modules/@broxus/tip3/contracts/abstract/TokenRootTransferableOwnershipBase.tsol": {
         "modificationTime": 1733177389009
@@ -152,11 +152,11 @@
     "/app/node_modules/@broxus/contracts/contracts/platform/PlatformBase.tsol": {
         "modificationTime": 1733177388555
     },
-    "/app/node_modules/@broxus/contracts/contracts/wallets/Account.tsol": {
-        "modificationTime": 1733177388542
-    },
     "/app/node_modules/@broxus/contracts/contracts/utils/RandomNonce.tsol": {
         "modificationTime": 1733177388561
+    },
+    "/app/node_modules/@broxus/contracts/contracts/wallets/Account.tsol": {
+        "modificationTime": 1733177388542
     },
     "compilerSettings": {
         "externalContracts": {

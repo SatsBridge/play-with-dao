@@ -59,7 +59,7 @@ Core functionality for managing proposals:
 - **Propose:** Accepts new proposals, validates actions, and interacts with the staking account for submission.
 - **DeployProposal:** Deploys proposals with unique IDs and initializes platform state.
 - **Proposal Actions:** `onProposalSucceeded` executes proposal actions (Ton and Ethereum-based) when approved.
-- **Helpers:** Functions to calculate gas costs for actions (`calcTonActionsValue`, `calcEthActionsValue`).
+- **Helpers:** Functions to calculate gas costs for actions (`calcTvmActionsValue`, `calcBtcActionsValue`).
 
 ---
 

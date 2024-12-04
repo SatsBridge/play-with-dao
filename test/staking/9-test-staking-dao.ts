@@ -330,7 +330,7 @@
 //     describe("Proposal tests", async function () {
 //       let proposal: Contract<FactorySource["Proposal"]>;
 //       let newParam = 16711680;
-//       let tonActions: any[] = [];
+//       let tvmActions: any[] = [];
 
 //       let btcActions = [
 //         {
@@ -347,7 +347,7 @@
 //           .getCallHash({ newParam })
 //           .call()
 //           .then((t) => t.value0);
-//         tonActions = [
+//         tvmActions = [
 //           {
 //             value: locklift.utils.toNano(1),
 //             target: testTarget.address,
@@ -362,7 +362,7 @@
 //           daoRoot.methods
 //             .propose({
 //               answerId: 0,
-//               tonActions,
+//               tvmActions,
 //               btcActions,
 //               description,
 //             })
@@ -388,7 +388,7 @@
 //         logger.log(
 //           `Deployed Proposal #${proposalId}: ${expectedProposalAddress}`
 //         );
-//         logger.log(`TonActions: \n${JSON.stringify(tonActions, null, 4)}`);
+//         logger.log(`TonActions: \n${JSON.stringify(tvmActions, null, 4)}`);
 //         logger.log(`BtcActions: \n${JSON.stringify(btcActions, null, 4)}`);
 //       });
 //       it("Check is staking is Active", async function () {
@@ -469,26 +469,26 @@
 //         });
 //         it("Check TonActions", async function () {
 //           const actualTonActions = await proposal.methods
-//             .tonActions()
+//             .tvmActions()
 //             .call()
-//             .then((t) => t.tonActions);
+//             .then((t) => t.tvmActions);
 
 //           expect(actualTonActions.length).to.equal(
-//             tonActions.length,
+//             tvmActions.length,
 //             "Wrong TonActions amount"
 //           );
 //           for (const [i, actualTonAction] of actualTonActions.entries()) {
 //             expect(actualTonAction.value).to.equal(
-//               tonActions[i].value,
-//               "Wrong TonAction value"
+//               tvmActions[i].value,
+//               "Wrong TvmAction value"
 //             );
 //             expect(actualTonAction.target.toString()).to.equal(
-//               tonActions[i].target.toString(),
-//               "Wrong TonAction target"
+//               tvmActions[i].target.toString(),
+//               "Wrong TvmAction target"
 //             );
 //             expect(actualTonAction.payload.toString()).to.equal(
-//               tonActions[i].payload.toString(),
-//               "Wrong TonAction payload"
+//               tvmActions[i].payload.toString(),
+//               "Wrong TvmAction payload"
 //             );
 //           }
 //         });
